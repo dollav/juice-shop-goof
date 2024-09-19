@@ -2,7 +2,7 @@
 version: v1.25.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  'snyk:lic:npm:fuzzball:GPL-2.0':
+  'snyk:lic:npm:fuzzball:GPL-2.00':
     - '*':
         reason: None Given
         expires: 2024-10-19T17:47:10.610Z
