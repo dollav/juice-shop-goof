@@ -1,6 +1,13 @@
 name: Example workflow for Maven using Snyk
 on: push
 jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 18
+    - run: npm install
   security:
     runs-on: ubuntu-latest
     steps:
